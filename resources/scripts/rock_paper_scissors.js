@@ -81,15 +81,18 @@ class RockPaperScissors {
     var result = this.determineWinner(userSelection, cpuSelection);
     var winner;
     if(result == "win"){
-      this.score.user++;
-      winner = this.username;
+      this.score.user ++;
+      winner = `${this.username} wins`;
     }
     else if(result == "lose"){
-      this.score.cpu++;
-      winner = "CPU";
+      this.score.cpu ++;
+      winner = "CPU wins";
+    }
+    else {
+      winner = "It's a tie";
     }
 
-    this.gameHistoryLog.push(`${this.username} selected ${userSelection}, CPU selected ${cpuSelection}: ${winner} wins`);
+    this.gameHistoryLog.push(`${this.username} selected ${userSelection}, CPU selected ${cpuSelection}: ${winner}<br>`);
   }
 
 }
