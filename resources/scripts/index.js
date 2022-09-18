@@ -22,7 +22,7 @@ function updateScoreTallyUI(){
 // updateGameHistoryUI
 function updateGameHistoryUI(){
   gameHistoryParagraph.innerHTML = "";
-  gameHistoryParagraph.innerHTML = game.gameHistoryLog;
+  gameHistoryParagraph.innerHTML = game.gameHistoryLog.join('');
 }
 
 // start-game-button EventListener
