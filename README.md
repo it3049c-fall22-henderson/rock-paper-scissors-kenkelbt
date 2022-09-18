@@ -15,7 +15,7 @@ how many points out of 20 does your team deserve on this assignment. Revise the 
 20
 ## Team Reflection:
 - Where did you encounter struggles today, and what did you do to deal with it?
-I struggled with small, tedious issues like capitalizing Rock in one file and then not capitalizing it in another and it messed with the code quite a bit.
+I struggled with small, tedious issues like capitalizing "Rock" in one file and then not capitalizing it in another and it messed with the code quite a bit.
 
 ### How long it took us to finish this?
 Took me about 2 hours to finish.
